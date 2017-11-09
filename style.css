@@ -1,0 +1,109 @@
+body, html {height: 100%; width: 100%;}
+body {
+	background: #181a22;
+	background: linear-gradient(135deg, rgba(41,45,60,1) 0%, rgba(15,15,24,1) 100%);
+	background-attachment: fixed;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-family: -apple-system, BlinkMacSystemFont, arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.5em;
+	text-align: center;
+}
+body#page-terms {
+	text-align: left;
+}
+body#page-home {
+	font-size: 16px;
+}
+#logo {
+	background: url('/_images/MOTI-icon-solo-gradient.svg') no-repeat center center;
+	background-size: 100%;
+	width: 130px;
+	height: 99px;
+	margin: 0 auto 50px;
+}
+body#page-home #logo {
+	background-image: url('/_images/MOTI-launch-icon-gradient.svg');
+	background-position: center top;
+	background-size: 130px 165px;
+	width: 280px;
+	height: 165px;
+	padding-bottom: 60px;
+	margin: 0;
+}
+
+h4 {
+	color: #d1a386;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#container {
+	max-width: 800px;
+	margin: auto;
+	padding: 80px 30px;
+	box-sizing: border-box;
+}
+body#page-home #container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	padding: 0;
+}
+body#page-terms #container {
+	max-width: 1400px;
+}
+ol {
+	padding: 0;
+}
+ol li {
+	margin: 10px 0 10px 2em;
+}
+a, .title {
+	color: #d1a386;
+	text-decoration: none;
+}
+a:hover {
+	color: #e6bda4;
+}
+.title {
+	margin-bottom: 50px;
+}
+.centered {
+	text-align: center;
+}
+blockquote {
+	border: 1px solid #d1a386;
+	padding: 25px;
+	margin: 1.1em 0;
+}
+blockquote h4 {
+	margin: 0 0 10px;
+}
+.example {
+	color: #d1a386;
+}
+.nowrap {
+	white-space: nowrap;
+}
+.download-btn svg {
+	display: block;
+}
+.download-btn svg g {fill:#FFFFFF; transition: .15s linear fill;}
+.download-btn {
+	display: inline-block;
+	width: 148px;
+	height: 44px;
+	outline: none;
+}
+a.download-btn:hover svg g {
+	fill: #cfa388;
+}
+@media (min-width: 600px) {
+	body {
+		font-size: 16px;
+	}
+}
